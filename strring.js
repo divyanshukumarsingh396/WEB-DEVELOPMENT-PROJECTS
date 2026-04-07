@@ -1,12 +1,13 @@
-let mode = "dark";
+let mode = "pink";
+let color;
 
-if(mode === dark){
+if(mode === "dark"){
     color = " black";
 }
-else if(mode === blue){
+else if(mode === "blue"){
     color = "blue";
 }
-else if(mode === pink){
+else if(mode === "pink"){
     color = "pink";
 }
 else{
@@ -14,7 +15,7 @@ else{
 }
 console.log(color);
 
-if(mood === "dark"){
+if(mode === "dark"){
     console.log(mode);
 
 }
