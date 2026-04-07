@@ -1,9 +1,20 @@
-let age = 52;
+let mode = "dark";
 
-if(age >= 18)
-{
-    console.log("You can vote");
+if(mode === dark){
+    color = " black";
+}
+else if(mode === blue){
+    color = "blue";
+}
+else if(mode === pink){
+    color = "pink";
 }
 else{
-    console.log("you cannot vote");
+    color = "white";
+}
+console.log(color);
+
+if(mood === "dark"){
+    console.log(mode);
+
 }
