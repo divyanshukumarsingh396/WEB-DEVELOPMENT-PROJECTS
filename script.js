@@ -1,8 +1,17 @@
-let num = prompt("Enter the Number :");
+let num =44;
 
-if(num % 5 ===0){
- console.log(num, "Is this multiple of 5");   
+if(num >= 80){
+    console.log(num, " A grade wow");
+}
+else if(num >=70 && num<80){
+    console.log(num, " Grade b thik hai");
+}
+else if(num >= 60 && num<70){
+    console.log(num, " grade C  ok hai");
+}
+else if(num >= 50 && num<60){
+    console.log(num, " grade  D low performance");
 }
 else{
-    console.log(num,"is this not multiple of 5");
+    console.log(num,"fail ho gye bro");
 }
