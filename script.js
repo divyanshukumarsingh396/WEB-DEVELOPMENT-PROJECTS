@@ -1,9 +1,8 @@
-const userEmail = " div3@gmail"
+let val1;
+//  val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+val1 = null ??16 ?? 25
+ console.log(val1);
 
-if(userEmail){
-    console.log("got user email");
-}
-else{
-    console.log("Don't have user Email ");
-    
-}
+ 
