@@ -1,25 +1,9 @@
-const month = 15
+const userEmail = " div3@gmail"
 
-switch(month){
-
-    case 1:
-            console.log("january");
-            break;
-        case 2:
-            console.log("abruary");
-            break;
-        case 3:
-            console.log("march");
-            break;
-        case 4:
-            console.log("april");
-            break;
-        case 5:
-            console.log("may");
-            break;
-
-        default : 
-            console.log(" default value");
-            break;
-        
+if(userEmail){
+    console.log("got user email");
+}
+else{
+    console.log("Don't have user Email ");
+    
 }
