@@ -1,13 +1,25 @@
-const userLoggedIn =true
-const debitCard = true
-const loggedFromGoogle = false
- const loggedFromEmail = true
+const month = 15
 
- if(userLoggedIn && debitCard && 2==3){
-    console.log("allow to buy course");
-    
- }
- if(loggedFromGoogle || loggedFromEmail){
-    console.log("user logged in");
-    
- }
+switch(month){
+
+    case 1:
+            console.log("january");
+            break;
+        case 2:
+            console.log("abruary");
+            break;
+        case 3:
+            console.log("march");
+            break;
+        case 4:
+            console.log("april");
+            break;
+        case 5:
+            console.log("may");
+            break;
+
+        default : 
+            console.log(" default value");
+            break;
+        
+}
