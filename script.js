@@ -1,8 +1,8 @@
-function addone (num){
-    return num + 1;
-}
-addone(5);
+const user = {
+    username : "div",
+    price : 999,
 
-const addTwo = function(num){
-    return num + 2
+    welcomeMessage : function(){
+        console.log(`${this.username},welcome to website`);
+    }
 }
