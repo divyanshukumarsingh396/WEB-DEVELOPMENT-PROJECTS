@@ -1,15 +1,13 @@
-function one(){
-    console.log("ONE");
-    two()
-}
-function two(){
-    console.log("two");
-    three()
-}
-function three (){
-    console.log("three");
+const userLoggedIn =true
+const debitCard = true
+const loggedFromGoogle = false
+ const loggedFromEmail = true
+
+ if(userLoggedIn && debitCard && 2==3){
+    console.log("allow to buy course");
     
-}
-one()
-two()
-three()
+ }
+ if(loggedFromGoogle || loggedFromEmail){
+    console.log("user logged in");
+    
+ }
