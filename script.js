@@ -1,7 +1,15 @@
-(function chai(){
-    console.log(`DB CONNECTED`);
-})();
-((name) =>{
-    console.log(`DB CONNECTED TWO ${name}`);
+function one(){
+    console.log("ONE");
+    two()
+}
+function two(){
+    console.log("two");
+    three()
+}
+function three (){
+    console.log("three");
     
-})('DIV')
+}
+one()
+two()
+three()
