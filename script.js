@@ -1,12 +1,8 @@
-function one(){
-    const username = " div"
-
-    function two (){
-        const website = " youtube"
-        console.log(username);
-    }
-   // console.log(website);
-
-    two()
+function addone (num){
+    return num + 1;
 }
-one()
+addone(5);
+
+const addTwo = function(num){
+    return num + 2
+}
