@@ -1,6 +1,7 @@
-let sum = 0;
-for(let i=0; i<=8; i++){
-    sum =sum+i;
+for(num=0; num<=100; num++){
+    if(num %2 ===0){
+        console.log("num =",num);
+        
+    }
+   
 }
-console.log("sum =",sum);
-console.log("loop has ended");
