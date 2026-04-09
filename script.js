@@ -1,8 +1,6 @@
-let val1;
-//  val1 = 5 ?? 10
-// val1 = null ?? 10
-// val1 = undefined ?? 15
-val1 = null ??16 ?? 25
- console.log(val1);
-
- 
+let sum = 0;
+for(let i=0; i<=8; i++){
+    sum =sum+i;
+}
+console.log("sum =",sum);
+console.log("loop has ended");
