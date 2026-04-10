@@ -57,10 +57,29 @@
 
 // FOR IN LOOP
 
-const coding = ["js", "ruby ","java","python","cpp"]
+// const coding = ["js", "ruby ","java","python","cpp"]
 
 
-coding.forEach(function (val){
-    console.log(val);
+// coding.forEach(function (val){
+//     console.log(val);
     
-})
+// })
+
+
+// Template literal
+
+let obj = {
+    item : "pen",
+     price: 10
+
+};
+let output =`the cost of ${obj.item} is ${obj.price} rupees`;
+console.log(output);
+ 
+console.log("the cost of", obj.item, "is" , obj.price, "rupees");
+
+
+let specialString =`This is a template literal ${1+2+3}`;
+console.log( specialString);
+
+
