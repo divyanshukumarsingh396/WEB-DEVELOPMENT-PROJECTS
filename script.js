@@ -68,18 +68,25 @@
 
 // Template literal
 
-let obj = {
-    item : "pen",
-     price: 10
+// let obj = {
+//     item : "pen",
+//      price: 10
 
-};
-let output =`the cost of ${obj.item} is ${obj.price} rupees`;
-console.log(output);
+// };
+// let output =`the cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
  
-console.log("the cost of", obj.item, "is" , obj.price, "rupees");
+// console.log("the cost of", obj.item, "is" , obj.price, "rupees");
 
 
-let specialString =`This is a template literal ${1+2+3}`;
-console.log( specialString);
+// let specialString = `This is a template literal ${1+2+3}`;
+// console.log( specialString);
+
+// STRING IN JS
+
+let fullName = prompt("Enter your full name without Space");
+
+let username = "@" + fullName + fullName.length;
+console.log(username);
 
 
