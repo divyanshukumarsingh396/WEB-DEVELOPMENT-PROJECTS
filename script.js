@@ -98,11 +98,49 @@
 
 // let marvel_heroes = ["thor", "iron-man", "Captan-america"];
 
-// let dcHeroes =["superman", "batman"];
+// // let dcHeroes =["superman", "batman"];
 
-// let indianHeroes =["balveer", "krish", "saktiman"];
+// // let indianHeroes =["balveer", "krish", "saktiman"];
 
-// let heroes = marvel_heroes.concat(dcHeroes).concat(indianHeroes);
-// console.log(heroes);
+// // let heroes = marvel_heroes.concat(dcHeroes).concat(indianHeroes);
+// // console.log(heroes);
 
+
+// let val = marvel_heroes.shift();
+// console.log("deleted",val);
+
+// SLICE
+
+
+// let marvelHeroes =["thor", " spiderman","Ironman","Dr. strange"];
+
+// console.log(marvelHeroes);
+// console.log(marvelHeroes.slice());
+// ;
+
+// splice
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// // arr.splice(2, 2, 102, 103);
+// // arr.splice(2,0,101);
+// // Delete element
+// arr.splice(3,1)
+
+//                      FUNCTIONS
+
+
+
+
+// function val (msg){ //parameter -> input
+//     console.log(msg);
+//     console.log(msg*n);
+    
+// }
+// val(" i love js",100); //argument
+
+// function sum( s1, s2){
+//     return s1+s2;
+// }
+// console.log(sum(12, 15));
 
