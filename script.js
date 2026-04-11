@@ -84,9 +84,25 @@
 
 // STRING IN JS
 
-let fullName = prompt("Enter your full name without Space");
+// let fullName = prompt("Enter your full name without Space");
 
-let username = "@" + fullName + fullName.length;
-console.log(username);
+// let username = "@" + fullName + fullName.length;
+// console.log(username);
+
+// let foodItem = ["potato"," apple", "litchi", "tomato"];
+// let marks = [65, 68, 41 ,25]
+// console.log(foodItem);
+//  console.log(foodItem.toString());
+//  console.log(foodItem);
+ 
+
+// let marvel_heroes = ["thor", "iron-man", "Captan-america"];
+
+// let dcHeroes =["superman", "batman"];
+
+// let indianHeroes =["balveer", "krish", "saktiman"];
+
+// let heroes = marvel_heroes.concat(dcHeroes).concat(indianHeroes);
+// console.log(heroes);
 
 
