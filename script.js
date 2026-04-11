@@ -144,3 +144,72 @@
 // }
 // console.log(sum(12, 15));
 
+// const arrowSum =( a, b) =>{
+//     console.log(a+b);
+    
+// };
+
+// function countVowels(str){ 
+//     let count =0;
+//     //"Apnacollege",count =0;
+//     for (const char of str) {
+//         if(char ==="A" || char ==="E" || char ==="I" || char ==="O" || char ==="U"){
+//           count++;  
+//         }
+//     }
+//     return count;
+
+// }
+
+//                  FOREACH LOOP IN ARRAY
+
+
+
+// let arr = [ "dfsf","dfs","edfe"];
+
+// arr.forEach((val, idx , arr) =>{
+//     console.log(val.toUpperCase(),idx,arr);
+    
+// });
+
+// let num = [25];
+// num.forEach((num) => {
+//     console.log(num*num*num);
+    
+// });
+
+//                  ARR MAP
+
+// let nums = [34,65,35];
+
+// let newArr = nums.map((val)  =>{
+// return val*2;
+
+// });
+
+// console.log(newArr);
+
+//                  ARR FILTER
+
+
+// let arr =[ 1,2,3,4,5];
+
+// let evenArr = arr.filter((val) => {
+//     return val <= 2 ;
+// });
+// console.log(evenArr);
+
+
+//                  ARR REDUCE
+
+
+
+// let arr =[ 1,6,3,9,2];
+
+// const output = arr.reduce((prev, curr) => {
+//     return prev > curr ? prev : curr;
+// });
+
+// console.log(output);
+
+
