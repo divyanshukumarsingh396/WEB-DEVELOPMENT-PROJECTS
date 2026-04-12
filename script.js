@@ -212,10 +212,17 @@
 
 // console.log(output);
 
+//                         DOM
+
 
 //   console.log("window");
   
-console.log(document.body);
-console.dir(document.body.childNodes[1]);
+// console.log(document.body);
+// console.dir(document.body.childNodes[1]);
+
+
+let div = document.querySelector("div");
+console.log(div);
+
 
 
