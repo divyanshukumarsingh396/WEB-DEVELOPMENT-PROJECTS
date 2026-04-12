@@ -221,8 +221,13 @@
 // console.dir(document.body.childNodes[1]);
 
 
-let div = document.querySelector("div");
-console.log(div);
+// let div = document.querySelector("div");
+// console.log(div);
 
 
+// let h2 = document.querySelector("h2");
+
+// console.dir(h2.innerText);
+
+// h2.innerText = h2.innerText  + " From the student";
 
