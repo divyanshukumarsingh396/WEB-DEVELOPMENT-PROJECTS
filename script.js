@@ -224,4 +224,34 @@
 // let div = document.querySelector("div");
 // console.log(div);
 
- 
+// let div = document.querySelector("div");
+
+
+// div.style.backgroundColor = " purple"
+// div.style.fontSize =" 50px"
+// // div.innerText ="HELLO";
+// div.style.visibility="hidden"
+
+let newBtn = document.createElement("button");
+newBtn.innerText ="click me"
+newBtn.style.color = " white";
+newBtn.style.backgroundColor = " red";
+
+document.querySelector("body").prepend(newBtn);
+
+// console.log(newBtn);
+
+// let div =document.querySelector("div");
+
+// div.style.backgroundColor = " red"
+// .style.backgroundColor = "white"
+// div.after(newBtn);
+
+//  let newHead = document.createElement("newHeading");
+
+//  newHead.innerHTML ="<h1><i> Hi, i am new</i>";
+
+//  document.querySelector("body").prepend(newHead);
+
+ let para = document.querySelector("p")
+ para.remove();
