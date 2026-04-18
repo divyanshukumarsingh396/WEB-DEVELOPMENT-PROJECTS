@@ -253,5 +253,35 @@
 
 //  document.querySelector("body").prepend(newHead);
 
- let para = document.querySelector("p")
- para.remove();
+//  let para = document.querySelector("p")
+//  para.remove();
+ let btn = document.querySelector("#btn");
+
+        btn.addEventListener("click", function() {
+
+            let input = document.querySelector("#task");
+            let task = input.value;
+
+            if (task === "") {
+                alert("Please enter task");
+                 return;
+            }
+
+            let li = document.createElement("li");
+            li.innerText = task;
+
+
+            let delBtn = document.createElement("button");
+            delBtn.innerText = "Delete";
+
+          
+            delBtn.addEventListener("click", function() {
+                li.remove();
+            });
+
+            li.appendChild(delBtn);
+
+            document.querySelector("#tasklist").appendChild(li);
+
+            input.value = "";
+        });
