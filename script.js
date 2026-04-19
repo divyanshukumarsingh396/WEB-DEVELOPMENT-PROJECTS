@@ -260,7 +260,7 @@
 // document.getElementById('owl').onclick = function(){
 //     alert("owl clicked")
 // }
-document.getElementById('owl').addEventListener('click', function(){
-    alert("owl clicked again")
-})
+// document.getElementById('owl').addEventListener('click', function(){
+//     alert("owl clicked again")
+// })
 // attachEv
