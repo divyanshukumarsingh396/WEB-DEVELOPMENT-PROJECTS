@@ -263,25 +263,47 @@
 // document.getElementById('owl').addEventListener('click', function(){
 //     alert("owl clicked again")
 // })
-// attachEv
 
-let btn1 = document.querySelector("#btn1");
+//                      EVENTS
 
-btn1.onclick = (e)=>{
-   console.log(e);
-    console.log(e.type);
-     console.log(e.target);
-     console.log(e.clickX, e.clickY);
+// let btn1 = document.querySelector("#btn1");
+
+// btn1.onclick = (e)=>{
+//    console.log(e);
+//     console.log(e.type);
+//      console.log(e.target);
+//      console.log(e.clickX, e.clickY);
      
    
-};
+// };
 
-let div = document.querySelector("div");
-div.onmouseover = ()=> {
-    console.log("you are inside div");
-    let b = 23;
-    b++;
-    console.log(b);
+// let div = document.querySelector("div");
+// div.onmouseover = (e)=> {
+//       console.log(e);
+//     console.log(e.type);
+//      console.log(e.target);
+//      console.log(e.clickX, e.clickY);
+     
+// };
+
+
+// let btn1 = document.querySelector("#btn1");
+
+// // btn1.addEventListener("click",(evt) => {
+// //     console.log("button1 was clicked - handler1");
+// // });
+
+// // btn1.addEventListener("click",(evt) => {
+// //     console.log("button1 was clicked - handler2");
+// // });
+
+// // const handler3 = ()=>{
+// //     console.log("button1 was clicked - handler3");
     
-    
-};
+// // }
+// //  btn1.addEventListener("click",(evt) => {
+// //     console.log("button1 was clicked - handler4");
+// // });
+
+// // btn1.removeEventListener("click", handler3);
+
