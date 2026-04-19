@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do App</title>
+
+    <style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(143, 226, 220);
+    }
+    div{
+        overflow : auto;
+        height: 200px;
+        width: 90%;
+        max-width: 200px;
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(57, 109, 155);
+    }
+    button{
+        background-color: rgb(172, 29, 105);
+    }
+    button:hover{
+        background-color: aquamarine;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<div>
+    <input type="text" id="task" placeholder="Enter Task">
+    <button id="btn">ADD</button>
+    <ul id="tasklist"></ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
